@@ -1,5 +1,6 @@
 /*
 Feuille de style du TP */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 :root {
  --couleur-principale: #1f4e79;
  --couleur-secondaire: #2e75b6;
@@ -211,4 +212,89 @@ img {
 .site-footer {
  /* TODO : padding 1.5rem var(--espace) */
     padding: 1.5rem var(--espace);
+}
+/* ===== PARTIE 3 : Couleurs, polices, arriere-plans (3.3) ===== */
+/* Polices : titres et logo en Poppins, avec polices de secours */
+h1, h2, h3, .logo {
+ /* TODO : font-family "Poppins", "Segoe UI", sans-serif */
+    font-family: "Poppins", "Segoe UI", sans-serif ;
+}
+.logo {
+ /* TODO : font-size 1.5rem ; font-weight 700 ; letter-spacing 0.05em ;
+ text-transform uppercase ; text-decoration none ; color #fff */
+    font-size: 1.5rem ;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+.contenu h2 {
+ /* TODO : font-size 1.6rem */
+    font-size: 1.6rem;
+}
+.slogan {
+ /* TODO : font-size 1.2rem */
+    font-size: 1.2rem;
+}
+.galerie figcaption {
+ /* TODO : font-size 0.9rem ; color #475569 ; text-align center */
+    font-size: 0.9rem;
+    color: #475569;
+    text-align: center;
+}
+.site-header {
+ /* TODO : background-color var(--couleur-principale) */
+    background-color: var(--couleur-principale);
+}
+.hero {
+ /* TODO : color #fff ; text-align center ;
+ background : url("https://picsum.photos/id/1015/1600/700")
+ center / cover no-repeat */
+    color: #fff;
+    text-align: center;
+    background: url("https://picsum.photos/id/1015/1600/700") center no-repeat;
+}
+.hero h1 {
+ /* TODO : font-size 2.2rem ; color #fff ;
+ text-shadow 0 2px 4px rgba(0, 0, 0, 0.3) */
+    font-size: 2.2rem;
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+.btn {
+ /* TODO : font-size 1rem ; font-weight 600 ; text-decoration none ;
+ color var(--couleur-texte) ; background-color var(--couleur-accent) ;
+ cursor pointer */
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--couleur-texte);
+    background-color: var(--couleur-accent);
+    cursor: pointer;
+}
+.btn:hover {
+ /* TODO : background-color hsl(38, 92%, 62%) */
+ background-color: hsl(38, 92%, 62%);
+}
+.deux-colonnes aside { /* TODO : background-color #e8f0fa */
+    background-color: #e8f0fa; }
+.carte { /* TODO : background-color #fff */ 
+    background-color: #fff;}
+.planning th { /* TODO : color #fff ; background-color var(--couleur-principale) */
+    color: #fff;
+    background-color: var(--couleur-principale);
+}
+.formulaire { /* TODO : background-color #fff */ background-color: #fff;}
+.champ label { /* TODO : font-weight 600 */ font-weight: 600; }
+.site-footer {
+ /* TODO : color #fff ; text-align center ; background-color #0f2a43 */
+    text-align: center;
+    background-color: #0f2a43;
+    color: #fff;
+}
+.site-footer a {
+ /* TODO : color var(--couleur-accent) */
+    color: var(--couleur-accent);
+
 }
